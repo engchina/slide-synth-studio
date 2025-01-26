@@ -600,7 +600,7 @@ with gr.Blocks(title="Slide Synth Studio", theme=theme) as app:
             )
 
         with gr.Row():
-            download_btn = gr.DownloadButton("Download Voice Scripts and Image Texts", variant="primary")
+            download_btn = gr.DownloadButton("Download Translated Scripts and Voice Scripts and Image Texts", variant="primary")
 
     with gr.Tabs():
         with gr.Tab("Processing", visible=False):
