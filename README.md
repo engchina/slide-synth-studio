@@ -16,7 +16,6 @@ cd slide-synth-studio
 
 # Install system dependencies
 sudo apt install libreoffice libjpeg-dev zlib1g-dev
-pip install pytesseract pdf2image
 
 # Setup Python environment
 pip install -r requirements.txt
